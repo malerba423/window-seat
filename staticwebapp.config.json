@@ -1,0 +1,5 @@
+{
+  "routes": [
+    { "route": "/", "redirect": "/projects/windowseat/", "statusCode": 302 }
+  ]
+}
