@@ -1,11 +1,11 @@
-import type { Airport } from '../core/types'
+import type { Airport } from '../core/types';
 
-const PACIFIC = 'America/Los_Angeles'
-const ALASKA = 'America/Anchorage'
-const MOUNTAIN = 'America/Denver'
-const CENTRAL = 'America/Chicago'
-const EASTERN = 'America/New_York'
-const HAWAII = 'Pacific/Honolulu'
+const PACIFIC = 'America/Los_Angeles';
+const ALASKA = 'America/Anchorage';
+const MOUNTAIN = 'America/Denver';
+const CENTRAL = 'America/Chicago';
+const EASTERN = 'America/New_York';
+const HAWAII = 'Pacific/Honolulu';
 
 export const airports: Airport[] = [
   { code: 'SEA', city: 'Seattle', lat: 47.4502, lon: -122.3088, tz: PACIFIC },
@@ -47,10 +47,10 @@ export const airports: Airport[] = [
   { code: 'BOS', city: 'Boston', lat: 42.3656, lon: -71.0096, tz: EASTERN },
   { code: 'DCA', city: 'Washington, D.C.', lat: 38.8512, lon: -77.0402, tz: EASTERN },
   { code: 'MCO', city: 'Orlando', lat: 28.4312, lon: -81.3081, tz: EASTERN },
-]
+];
 
 export const airportByCode = (code: string): Airport => {
-  const airport = airports.find(a => a.code === code)
-  if (!airport) throw new Error(`Unknown airport code "${code}"`)
-  return airport
-}
+  const airport = airports.find((a) => a.code === code);
+  if (!airport) throw new Error(`Unknown airport code "${code}"`);
+  return airport;
+};

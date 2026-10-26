@@ -15,7 +15,7 @@
   --left-soft: #e3eef6;
   --right: #b4561f;
   --right-soft: #f8e9df;
-  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
 body {
