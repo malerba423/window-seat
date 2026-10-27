@@ -21,7 +21,7 @@ Real flights bend for weather, traffic and runway direction, so treat the answer
 
 ## Running it
 
-Requires Node 18 or newer (`nvm use`).
+Requires a current Node LTS release.
 
 ```
 npm install
